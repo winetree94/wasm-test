@@ -5,3 +5,7 @@ int main(int argc, char **argv){
 
     return 1;
 }
+
+int add(int a, int b) {
+    return a + b;
+}

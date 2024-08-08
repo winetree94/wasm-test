@@ -1,0 +1,9 @@
+{
+  "name": "@emscripten-starter/wasm",
+  "type": "module",
+  "module": "./dist/wasm.js",
+  "types": "./dist/interface.d.ts",
+  "scripts": {
+    "build": "./build.sh"
+  }
+}

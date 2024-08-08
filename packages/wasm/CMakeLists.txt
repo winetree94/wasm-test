@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5.0)
 project(wasm VERSION 0.1.0 LANGUAGES C)
 
-add_executable(wasm wasm/main.c)
+add_executable(wasm src/main.c)
 
