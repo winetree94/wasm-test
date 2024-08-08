@@ -2,15 +2,12 @@ import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import 'webpack-dev-server';
+import type { Configuration } from 'webpack';
 
 const outputPath = 'dist';
 
-const configs = {
+const configs: Configuration = {
   mode: 'development',
   entry: {
     index: path.resolve(__dirname, 'src', 'index.tsx'),

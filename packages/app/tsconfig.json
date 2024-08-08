@@ -8,6 +8,7 @@
       "esModuleInterop": true,
       "strict": true,
       "jsx": "react-jsx",
-      "sourceMap": true
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true
   }
 }
