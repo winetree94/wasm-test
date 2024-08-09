@@ -2,7 +2,6 @@
 
 int main(int argc, char **argv){
     printf("Hello, from wasm!\n");
-
     return 1;
 }
 
