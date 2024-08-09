@@ -1628,4 +1628,7 @@ for (const prop of Object.keys(Module)) {
 }
 );
 })();
-export default Module;
+if (typeof exports === 'object' && typeof module === 'object')
+  module.exports = Module;
+else if (typeof define === 'function' && define['amd'])
+  define([], () => Module);
